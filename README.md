@@ -1,5 +1,5 @@
 # Air Quality Dashboard by Hadad Karsa Nur Iman
-Dicoding Student | Belajar Analisis Data dengan Python
+Dicoding Project | Belajar Analisis Data dengan Python
 
 ## Setup environment
 ```
