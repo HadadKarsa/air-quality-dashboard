@@ -47,16 +47,15 @@ Jika Anda lebih suka menggunakan pip, Anda bisa membuat virtual environment meng
     ```
 
 Setelah itu, Anda bisa menjalankan project Streamlit dengan perintah:
-```
+
 streamlit run air_quality_dashboard.py
-```
 
 ---
 ## Tautan Online Air Quality Dashboard
 
 Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall di lokal, dashboard online dapat dilihat pada tautan berikut:
 
-(https://air-quality-dashboard-hadadkarsa.streamlit.app/)
+[Kunjungi https://air-quality-dashboard-hadadkarsa.streamlit.app/](https://air-quality-dashboard-hadadkarsa.streamlit.app/)
 
 ![Screenshot (935)](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/183c6366-45f7-4eb2-a4d8-465cac98409c)
 
