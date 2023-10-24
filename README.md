@@ -50,13 +50,14 @@ Setelah itu, Anda bisa menjalankan project Streamlit dengan perintah:
 ```
 streamlit run air_quality_dashboard.py
 ```
+---
+## Tautan Online Air Quality Dashboard
 
-```
+Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall di lokal, dashboard online dapat dilihat pada tautan berikut:
 
-## Tautan Online Air Quality Dashboar
-
-Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall di lokal pada tautan berikutkL:
-(https://air-quality-dashboard-hadadkarsa.streamlit.app/)
+https://air-quality-dashboard-hadadkarsa.streamlit.app/
 
 
-<img src="images/MultipleLinier.png?raw=true"/>
+<img src="Screenshot (935).png?raw=true"/>
+<img src="Screenshot (936).png?raw=true"/>
+<img src="Screenshot (937).png?raw=true"/>
