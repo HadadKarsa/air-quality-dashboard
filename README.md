@@ -58,10 +58,9 @@ Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall d
 
 [https://air-quality-dashboard-hadadkarsa.streamlit.app/](https://air-quality-dashboard-hadadkarsa.streamlit.app/)
 
-<img src="images/Screenshot 1.png?raw=true"/>
+![Screenshot streamlit 1](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/09abc310-d6a7-4aba-81a1-035d3711e258)
 
-<img src="images/Screenshot 2.png?raw=true"/>
 
-<img src="images/Screenshot 3.png?raw=true"/>
+![Screenshot streamlit 2](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/343ebe1f-16f4-48c6-8740-ec152b49b652)
 
 ---
