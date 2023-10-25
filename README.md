@@ -56,7 +56,7 @@ streamlit run air_quality_dashboard.py
 
 Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall di lokal, dashboard online dapat dilihat pada tautan berikut:
 
-![Kunjungi https://air-quality-dashboard-hadadkarsa.streamlit.app/](https://air-quality-dashboard-hadadkarsa.streamlit.app/)
+[https://air-quality-dashboard-hadadkarsa.streamlit.app/](https://air-quality-dashboard-hadadkarsa.streamlit.app/)
 
 <img src="images/Screenshot 1.png?raw=true"/>
 
