@@ -19,14 +19,19 @@ df = load_data()
 # Sidebar untuk navigasi
 st.sidebar.header("Menu Interaktif 🛠️")
 
+sorted_columns = sorted(df.columns[5:])
+index_PM25 = sorted_columns.index('PM2.5')
+index_TEMP = sorted_columns.index('TEMP')
+index_O3 = sorted_columns.index('O3')
+
 # Sidebar untuk Pertanyaan Bisnis 1
 st.sidebar.subheader("Business Problem 1")
-feature1 = st.sidebar.selectbox('Pilih Indikator Kualitas Udara untuk semua Station:', sorted(df.columns[5:]), index=df.columns.get_loc('PM2.5') - 5)
+feature1 = st.sidebar.selectbox('Pilih Indikator Kualitas Udara untuk semua Station:', sorted_columns, index=index_PM25)
 
 # Sidebar untuk Pertanyaan Bisnis 2
 st.sidebar.subheader("Business Problem 2")
-feature_x = st.sidebar.selectbox('Pilih Fitur untuk Sumbu X:', sorted(df.columns[5:]), index=df.columns.get_loc('TEMP') - 5)
-feature_y = st.sidebar.selectbox('Pilih Fitur untuk Sumbu Y:', sorted(df.columns[5:]), index=df.columns.get_loc('O3') - 5)
+feature_x = st.sidebar.selectbox('Pilih Fitur untuk Sumbu X:', sorted_columns, index=index_TEMP)
+feature_y = st.sidebar.selectbox('Pilih Fitur untuk Sumbu Y:', sorted_columns, index=index_O3)
 
 # Slider untuk rentang tahun
 year_range = st.sidebar.slider("Pilih Rentang Tahun:", min(df['year']), max(df['year']), (2016, 2017))
@@ -37,15 +42,10 @@ df_filtered = df[df['year'].between(year_range[0], year_range[1])]
 # Pertanyaan Bisnis 1
 st.header(f"Business Problem 1: Rata-Rata Konsentrasi {feature1} berdasarkan Lokasi/Stasiun")
 
-# Menampilkan statistik deskriptif
-st.subheader("Statistik Deskriptif")
-feature1_summary = df_filtered.groupby('station')[feature1].describe()
-st.dataframe(feature1_summary)
-
 # Visualisasi Data
 st.subheader("Visualisasi Data")
 fig1, ax1 = plt.subplots(figsize=(16, 8))
-sns.barplot(x='station', y=feature1, data=df_filtered, estimator=np.mean, errorbar=None, palette="coolwarm", ax=ax1)  # Menggunakan errorbar=None menggantikan ci=None
+sns.barplot(x='station', y=feature1, data=df_filtered, estimator=np.mean, errorbar=None, ax=ax1)  # Menggunakan errorbar=None menggantikan ci=None
 
 # Menambahkan label angka pada setiap bar
 for p in ax1.patches:
