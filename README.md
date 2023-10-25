@@ -4,7 +4,7 @@ Dicoding Project | Belajar Analisis Data dengan Python
 ## Setup environment
 ```
 Berikut adalah langkah-langkah untuk menyiapkan environment:
-
+```
 ### Menggunakan Conda
 
 1. Buat environment baru dengan Conda:
@@ -45,11 +45,11 @@ Jika Anda lebih suka menggunakan pip, Anda bisa membuat virtual environment meng
     ```
     pip install numpy pandas scipy matplotlib seaborn streamlit
     ```
-
+```
 Setelah itu, Anda bisa menjalankan project Streamlit dengan perintah:
 
 streamlit run air_quality_dashboard.py
-
+```
 
 ---
 ## Tautan Dashboard Online
@@ -58,9 +58,10 @@ Untuk mempermudah audiens melihat dashboard interaktif tanpa repot menginstall d
 
 ![Kunjungi https://air-quality-dashboard-hadadkarsa.streamlit.app/](https://air-quality-dashboard-hadadkarsa.streamlit.app/)
 
-![Screenshot (935)](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/183c6366-45f7-4eb2-a4d8-465cac98409c)
+<img src="images/Screenshot 1.png?raw=true"/>
 
-![Screenshot (936)](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/8997a6f7-631a-4f72-ad81-534bc32c5442)
+<img src="images/Screenshot 2.png?raw=true"/>
 
-![Screenshot (937)](https://github.com/HadadKarsa/air-quality-dashboard/assets/101955341/e998ea08-5613-48f8-b4d6-bacb3106438d)
+<img src="images/Screenshot 3.png?raw=true"/>
+
 ---
